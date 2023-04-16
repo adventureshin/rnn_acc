@@ -42,6 +42,9 @@ print("Problematic lines:")
 for line_info in problematic_lines:
     print(f"Line {line_info[0] + 1}: {line_info[1]}")
 
+# 데이터 개수 출력
+print(f"Total lines: {len(lines)}")
+
 # 정리된 데이터를 문자열로 저장
 cleaned_data_str = '\n'.join(cleaned_lines)
 
